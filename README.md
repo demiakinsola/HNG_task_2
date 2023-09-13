@@ -10,7 +10,7 @@ Name: Oluwademilade Akinsola
 Email: oluwademiladeakinsola@gmail.com
 
 ### Live Demo
-[https://user-management-vb6v.onrender.com](https://user-management-vb6v.onrender.com)
+[https://user-management-vb6v.onrender.com/api](https://user-management-vb6v.onrender.com)
 
 ### Documentation Link
 [https://documenter.getpostman.com/view/28211163/2s9YC4VYtV](https://documenter.getpostman.com/view/28211163/2s9YC4VYtV)
@@ -32,16 +32,16 @@ const apiDocumentation = {
     },
   ],
   paths: {
-    '/api': {
-      get: fetchPerson,
-    },
-    '/api/{user_id}': {
+        'https://user-management-vb6v.onrender.com/api': {
         post: createPerson,
     },
-    '/api/{user_id}': {
+    'https://user-management-vb6v.onrender.com/api/{user_id}': {
+      get: fetchPerson,
+    },
+    'https://user-management-vb6v.onrender.com/api/{user_id}': {
         put: updatePerson,
     }
-    '/api/{user_id}': {
+    'https://user-management-vb6v.onrender.com/api/{user_id}': {
         delete: deletePerson,
     }
   },
