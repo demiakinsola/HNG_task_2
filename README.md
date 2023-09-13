@@ -9,6 +9,9 @@ The UserManagement API is used to manage users. It provides endpoints for adding
 Name: Oluwademilade Akinsola
 Email: oluwademiladeakinsola@gmail.com
 
+### Live Demo
+[https://user-management-vb6v.onrender.com](https://user-management-vb6v.onrender.com)
+
 ### Documentation Link
 [https://documenter.getpostman.com/view/28211163/2s9YC4VYtV](https://documenter.getpostman.com/view/28211163/2s9YC4VYtV)
 
